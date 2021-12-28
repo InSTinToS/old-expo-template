@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container, Title } from './styles'
+import { Avatar, Container, Title } from './styles'
 
 import { StatusBar } from 'expo-status-bar'
+import avatar from 'static/avatar.png'
 
 const Home = () => {
   return (
@@ -9,6 +10,8 @@ const Home = () => {
       <StatusBar style='light' />
 
       <Title>Home</Title>
+
+      <Avatar source={avatar} />
     </Container>
   )
 }

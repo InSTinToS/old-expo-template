@@ -6,7 +6,8 @@
     "paths": {
       "pages/*": ["src/pages/*"],
       "styles/*": ["src/styles/*"],
-      "@types/*": ["src/@types/*"]
+      "@types/*": ["src/@types/*"],
+      "static/*": ["static/*"]
     }
   }
 }
