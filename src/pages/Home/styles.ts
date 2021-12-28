@@ -6,14 +6,14 @@ export const Container = styled.View`
   justify-content: center;
 
   background-color: ${({ theme }) => theme.primary};
-`
+`;
 
 export const Title = styled.Text`
   color: white;
-`
+`;
 
 export const Avatar = styled.Image`
   width: 72px;
   height: 72px;
   margin-top: 24px;
-`
+`;

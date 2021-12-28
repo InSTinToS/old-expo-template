@@ -3,6 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
+    "noUnusedLocals": true,
     "paths": {
       "pages/*": ["src/pages/*"],
       "styles/*": ["src/styles/*"],
