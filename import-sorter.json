@@ -40,6 +40,16 @@
           "regex": "^components/",
           "orderLevel": 5,
           "disableSort": true
+        },
+        {
+          "regex": "^styles/",
+          "orderLevel": 6,
+          "disableSort": true
+        },
+        {
+          "regex": "^(expo|@expo)-",
+          "orderLevel": 3,
+          "disableSort": true
         }
       ]
     }
