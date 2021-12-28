@@ -1,9 +1,12 @@
-import { StyleSheet, View } from 'react-native'
-
 import Home from 'pages/Home'
 
-const App = () => {
-  return <Home />
-}
+import { ThemeProvider } from 'styled-components/native'
+import theme from 'styles/theme'
+
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <Home />
+  </ThemeProvider>
+)
 
 export default App

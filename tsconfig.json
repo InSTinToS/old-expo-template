@@ -4,7 +4,9 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "pages/*": ["src/pages/*"]
+      "pages/*": ["src/pages/*"],
+      "styles/*": ["src/styles/*"],
+      "@types/*": ["src/@types/*"]
     }
   }
 }
