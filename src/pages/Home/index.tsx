@@ -6,11 +6,11 @@ import { StatusBar } from 'expo-status-bar'
 const Home = () => {
   return (
     <Container>
-      <StatusBar style="light" />
+      <StatusBar style='light' />
 
       <Title>Populares</Title>
     </Container>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
