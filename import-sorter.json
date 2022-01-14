@@ -37,7 +37,7 @@
           "disableSort": true
         },
         {
-          "regex": "^src/pages/",
+          "regex": "^(src/pages/)|(src/App)",
           "orderLevel": 5,
           "disableSort": true
         },

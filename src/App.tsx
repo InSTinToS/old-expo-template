@@ -1,3 +1,5 @@
+import Routes from './routes'
+
 import AppLoading from 'expo-app-loading'
 import {
   Roboto_300Light,
@@ -9,9 +11,9 @@ import {
 
 import { ThemeProvider } from 'styled-components/native'
 
-import Home from 'src/pages/Home'
-
 import theme from 'src/styles/theme'
+
+import 'react-native-gesture-handler'
 
 const App = () => {
   const [fonts] = useFonts({
@@ -25,7 +27,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <Routes />
     </ThemeProvider>
   )
 }
